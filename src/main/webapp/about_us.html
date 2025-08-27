@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Us</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h1{
+  color:#eee5e4;
+}
+h2{
+    color: #ff6347;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #ff6347;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+#owner {
+  background-color: #fff;
+}
+
+.owner-info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.owner-info p{
+    line-height: 30px;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.owner-img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.neck-design{
+    margin-top: 100px;
+    text-align: center;  
+}
+.neck-design h2{
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.stitching-styles {
+  margin: 50px;
+  text-align: center;
+}
+
+.stitching-styles h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.styles {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.style-card {
+  width: 250px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.style-card img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.style-card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.style-card p {
+  font-size: 16px;
+  color: #555;
+  padding-bottom: 20px;
+}
+
+#reviews {
+  background-color: #f9f9f9;
+}
+
+.review {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.foot-container{
+    padding: 40px;
+}
+.foot-container h2{
+    text-align: center;
+    padding: 20px;
+}
+.foot-container p{
+    padding-top: 10px;
+}
+.mes{
+    text-align: center;
+    padding: 10px;
+}
+.copy{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>About Us</h1>
+      <nav>
+        <ul>
+          <li><a href="#owner">Owner</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="owner" class="section">
+    <div class="container">
+      <h2>About the Owners</h2>
+      <div class="owner-info">
+        <img src="images/imk.jpeg" alt="Owner Image" class="owner-img">
+        <p>Our owner, Zain Ul Abidin and Muhammad Bin Rafique, has over 5 years of experience in the 
+        tailoring industry. He is dedicated to providing top-notch quality and style with every piece of 
+        work. His passion for tailoring began at a young age, and he has refined her skills to serve her 
+        community with exceptional  service.</p>
+      </div>
+    </div>
+  </section>
+  <div id="stitching-styles" class="stitching-styles">
+    <h2>Our Different Stitching Styles</h2>
+    <div class="styles">
+        <!-- Patiala Trouser -->
+        <div class="style-card">
+            <img src="images/mbr.jpg" alt="design 1">
+            <h4>Shalwar Kameez </h4>
+            <p>Tradition shalwar kameez with custom cuff , corlor and front patti.</p>
+        </div>
+
+        <!-- Pant Stitching -->
+        <div class="style-card">
+            <img src="images/trouser.jpg" alt="design 2">
+            <h4>Kameez with Trouser</h4>
+            <p>Traditional Shalwar Kameez with custom front patti and ben.</p>
+        </div>
+
+        <!-- Shalwar Kameez Stitching -->
+        <div class="style-card">
+            <img src="images/s3.jpeg" alt="design 3">
+            <h4>Kurta Pajama</h4>
+            <p>A Modern Kurta Pajama with with black patti front pocket.</p>
+        </div>
+        </div>
+        </div>
+
+<div id="neck-design" class="neck-design">
+    <h2>Neck Design</h2>
+    <div class="styles">
+        <div class="style-card">
+            <img src="images/ben.jpg" alt="ben">
+            <h4>Baen</h4>
+        </div>
+        <div class="style-card">
+            <img src="images/collar.jpg" alt="collar">
+            <h4>Collar</h4>
+        </div>
+        <div class="style-card">
+            <img src="images/nk.webp" alt="design 3">
+            <h4>Style Neck</h4>
+        </div>
+    </div>
+</div>
+
+
+  <section id="reviews" class="section">
+    <div class="container">
+      <h2>Customer Reviews</h2>
+      <div class="review">
+        <p>"i order my suit for stitching it is just amazing with fittings and quality recommeded !" - saad raza</p>
+      </div>
+      <div class="review">
+        <p>"amzing services delivery on time top quality !" - muhsin raza</p>
+      </div>
+      <div class="review">
+        <p>"very good and just amazing presize measurements" - zeeshan</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot-container">
+        <h2>Contact Information</h2>
+        <p class="mes">If you have any questions or want to make an appointment, don't hesitate to get in touch with us!</p>
+          <p>Email:  zainulabidin9909@gmail.com</p>
+          <p>Phone:   +92 3049289203</p>
+          <p>   Location: FG college Kharian Cantt</p>
+      
+      <p class="copy">&copy; 2025 Z.Tailors Craft. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
